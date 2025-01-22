@@ -1,0 +1,109 @@
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+  }
+  header {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+  }
+  #todo-app {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+  }
+  #task-input {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    font-size: 1rem;
+  }
+  
+  #task-input:focus {
+    border-color: #4caf50;
+  }
+
+  #add-task-btn {
+    margin-top: 10px; /* added this */
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #add-task-btn:hover {
+    background-color: #388e3c;
+  }
+
+
+/* Task List Styling */
+#task-list {
+    list-style: none;
+    margin-top: 20px;
+  }
+  
+  #task-list li {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:1rem;
+  }
+  
+  .task-buttons {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .task-buttons button {
+    background-color: #5885da;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task-buttons button:hover {
+    background-color: #3973dd;
+  }
+  
+  .task-buttons .remove-btn {
+    background-color: #e74c3c;
+  }
+  
+  .task-buttons .remove-btn:hover {
+    background-color: #c0392b;
+  }
+  
